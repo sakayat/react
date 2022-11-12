@@ -1,9 +1,14 @@
+import React, {Component} from 'react';
+import Counter from "./Counter";
 
-
-function App() {
-  return (
-    <h1>Welcome</h1>
-  );
+class App extends Component {
+    render() {
+        return (
+            <>
+                <Counter/>
+            </>
+        );
+    }
 }
 
 export default App;
