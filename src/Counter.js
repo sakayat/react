@@ -15,7 +15,6 @@ class Counter extends Component {
     }
 
     Decrement(){
-
         if(this.state.count===0){
             this.setState({
                 count: this.state.count = 0

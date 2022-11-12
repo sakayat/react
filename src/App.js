@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import Counter from "./Counter";
+import ParentComponents from "./components/ParentComponents";
+
+
 
 class App extends Component {
     render() {
         return (
             <>
-                <Counter/>
+
             </>
         );
     }
