@@ -15,15 +15,9 @@ class Counter extends Component {
     }
 
     Decrement(){
-        if(this.state.count===0){
-            this.setState({
-                count: this.state.count = 0
-            })
-        } else {
-            this.setState({
-                count: this.state.count - 1
-            })
-        }
+        this.setState({
+            count: this.state.count - 1
+        })
     }
 
     render() {
